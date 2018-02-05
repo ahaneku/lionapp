@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="feed_contentL">13dp</dimen>
+    <dimen name="fragment_top_padding">14dp</dimen>
+    <dimen name="colaps_dimen">200dp</dimen>
+</resources>

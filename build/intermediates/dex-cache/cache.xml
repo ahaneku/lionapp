@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_5dee85e088d9603685d1d890f223af3d95562a2a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\libs\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_c4e43860b5520ef4449c96ff6b557ef30f9391ee\classes.dex" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_6ededcc9b39f46fbcdd6efbd1a4d51bb6afd2a15\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\libs\jsoup-1.9.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3dc0a3bea4f876c54846cd050e688f1bfc78fc96">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.9.1_9c565e01bf52540b717186699a2f934c2d5f9eb2\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.1.1_a089ec047b46e50869fb605637f623b339406948\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.1.1_7a6f27c7f865a7ea7676264aa92631cfa14285d5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.1.1_722ff824c2011805f38ff6cfbae3a187536b594a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c61d64f1496a04299ff9000925679d2d25f0e3b">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_127b8c3aca6dd933b2f6821f5fe4c61569204f47\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="08236a21d0f4f26b0702183773a2c3fe6c775a1a">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ec81ec7c305c5bc850cf9dca554f8555be22e0b7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\libs\ng.edu.unn.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="40565f72a1c9c72009fc9c2d62a46a5875e63db3">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\ng.edu.unn_2c65571ca36d3c2570b4b48f5b28b551290879ee\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_8b5c471b90d6ff7ad7edc6153009ae4d38710f08\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\HP PC\AndroidStudioProjects\LionApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.1.1_883ae3af19f70597ed9e248a9ff0022a9d312608\classes.dex" />
+    </item>
+
+</items>

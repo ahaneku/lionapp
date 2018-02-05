@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="user_params"
+>
+
+
+        <EditTextPreference
+            android:title="User Name"
+            android:key="user_name"
+            android:defaultValue="null"
+            android:id="@+id/user_name_pref"
+            />
+
+        <EditTextPreference
+            android:title="User Password"
+            android:key="user_password"
+            android:defaultValue="null"
+            android:id="@+id/user_pass_pref"
+            />
+
+        <EditTextPreference
+            android:title="User Department"
+            android:key="user_department"
+            android:defaultValue="null"
+            android:id="@+id/user_department_pref"/>
+
+        <EditTextPreference
+            android:title="Reg No"
+            android:key="user_reg_no"
+            android:defaultValue="null"
+            android:id="@+id/user_reg_no_pref"/>
+
+        <CheckBoxPreference
+            android:title="LogIn State"
+            android:key="logged_in"
+            android:defaultValue="false"
+            android:id="@+id/user_loged_in_state_pref"/>
+
+        <EditTextPreference
+            android:title="User Id"
+            android:key="user_id"
+            android:defaultValue="null"
+            android:id="@+id/user_id_pref"/>
+
+        <EditTextPreference
+            android:title="Database Count"
+            android:key="db_c_state"
+            android:defaultValue="null"
+            android:id="@+id/count_pref"
+            />
+
+        <CheckBoxPreference
+            android:title="First Launch"
+            android:key="first_launch"
+            android:defaultValue="true"
+            android:id="@+id/first_launch_pref"/>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context=".UserProfileActivity"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/profile_appBar"
+        android:fitsSystemWindows="true"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/collapsing_bar"
+            android:fitsSystemWindows="true"
+            app:toolbarId="@+id/colapseView"
+            app:contentScrim="@drawable/user_bck"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:statusBarScrim="@color/colorPrimaryDark"
+
+            >
+            <android.support.v7.widget.Toolbar
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:id="@+id/user_toolbar"
+                app:layout_collapseMode="pin"
+/>
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                card_view:cardElevation="8dp"
+                card_view:cardBackgroundColor="@color/colorPrimary"
+                android:id="@+id/user_profile_head"
+                app:layout_scrollFlags="scroll"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/user_bck"
+                    android:backgroundTintMode="multiply"
+                    >
+
+                    <android.support.design.widget.FloatingActionButton
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/userImage"
+                        android:scaleType="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="@dimen/userImage1"
+                        android:contentDescription="@string/userInage"
+                        android:background="@color/colorAccent"
+                        android:src="@drawable/ic_user_24dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/userName_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:maxLines="1"
+                        android:layout_marginTop="@dimen/userImage1"
+                        android:layout_marginLeft="@dimen/userImage1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Ahaneku Chijioke"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/userDepartment_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorAccent"
+                        android:maxLines="1"
+                        android:layout_marginLeft="@dimen/userImage1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Computer Science"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+ </android.support.design.widget.AppBarLayout>
+
+
+
+    <include layout="@layout/user_profile_content_list"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>
